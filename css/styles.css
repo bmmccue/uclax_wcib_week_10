@@ -1,23 +1,24 @@
 body h1 {
-  font-family: allura, georgia, serif;
-  color: #595755; }
+  font-family: allura, georgia, serif; }
 
 body h3 {
   font-family: Kumbh Sans, arial, sans-serif;
-  font-size: 15pt;
-  color: #595755; }
+  font-size: 15pt; }
 
 body p {
   font-family: Kumbh Sans, arial, sans-serif;
   font-weight: lighter;
-  color: #595755;
   line-height: 2.5; }
 
 body .navbar {
   background-color: #595755; }
 
 body .social-icons {
-  margin-left: 30px; }
+  margin-left: 100px; }
+
+body .navbar-logo {
+  margin: 0 auto;
+  display: block; }
 
 body .navbar-toggler {
   background-color: white; }
@@ -28,11 +29,11 @@ body .navbar-social {
 body .navbar-nav {
   flex-direction: row;
   font-family: Kumbh Sans, arial, sans-serif;
-  margin-right: 30px; }
+  margin-right: 100px; }
   body .navbar-nav li {
     padding: 5px;
     text-decoration: none;
-    font-size: 12pt; }
+    font-size: 10pt; }
     body .navbar-nav li a {
       color: #fff9f0; }
 
@@ -49,7 +50,12 @@ body .welcome_content {
   margin-bottom: 140px; }
 
 body .welcome_text {
-  margin-left: 230px; }
+  margin-left: 230px;
+  color: #595755; }
+
+body .welcome_p {
+  text-align: justify;
+  text-align-last: left; }
 
 body .welcome_photo {
   margin-left: 40px; }
@@ -57,3 +63,50 @@ body .welcome_photo {
 body .from_garage {
   margin-bottom: 30px;
   font-size: 45pt; }
+
+body .whyconvert_title {
+  text-align: center; }
+
+body .whyconvert_content {
+  background-color: #dd9d72;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  width: 100%; }
+  body .whyconvert_content button {
+    padding: 10px 30px 10px 30px;
+    margin-top: 60px;
+    background-color: #fff9f0;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px #cd8b5e; }
+    body .whyconvert_content button button:focus {
+      outline: 3px gray;
+      outline-offset: 10px; }
+    body .whyconvert_content button a {
+      font-family: Kumbh Sans, arial, sans-serif;
+      color: #dd9d72; }
+
+body .whyconvert_title {
+  color: white;
+  padding-bottom: 50px; }
+
+body .icon {
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 40px; }
+
+body .whyconvert_text {
+  color: white; }
+
+body .whyconvert_header {
+  font-size: 16pt; }
+
+body footer {
+  background-color: #595755;
+  color: #fff9f0;
+  font-family: Kumbh Sans, arial, sans-serif;
+  font-size: 10pt;
+  padding: 30px; }
+  body footer a {
+    font-size: 10pt; }

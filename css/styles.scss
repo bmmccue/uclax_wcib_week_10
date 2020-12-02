@@ -1,20 +1,18 @@
 body {
 
+
   h1 {
     font-family: allura, georgia, serif;
-    color: #595755;
   }
 
   h3 {
     font-family: Kumbh Sans, arial, sans-serif;
     font-size: 15pt;
-    color: #595755;
   }
 
   p {
     font-family: Kumbh Sans, arial, sans-serif;
     font-weight: lighter;
-    color: #595755;
     line-height: 2.5;
   }
 
@@ -24,7 +22,12 @@ body {
   }
 
   .social-icons {
-    margin-left: 30px;
+    margin-left: 100px;
+  }
+
+  .navbar-logo {
+    margin: 0 auto;
+    display: block;
   }
 
   .navbar-toggler {
@@ -38,20 +41,25 @@ body {
   .navbar-nav {
     flex-direction: row;
     font-family: Kumbh Sans, arial, sans-serif;
-    margin-right: 30px;
+    margin-right: 100px;
 
+    //li//
     li {
       padding: 5px;
       text-decoration: none;
-      font-size: 12pt;
+      font-size: 10pt;
 
       a {
         color: #fff9f0;
       }
+
      }
-  }
+     //li//
+   }
 //NAV//
 
+
+//HERO IMAGE//
   .hero-image {
     background-image: url("../images/beach_cottage/beach_cottage_1.jpg");
     height: 540px;
@@ -60,6 +68,8 @@ body {
     background-size: cover;
     position: relative;
   }
+//HERO IMAGE//
+
 
 //WELCOME CONTENT//
    .welcome_content {
@@ -69,6 +79,12 @@ body {
 
    .welcome_text {
      margin-left: 230px;
+     color: #595755;
+   }
+
+   .welcome_p {
+     text-align: justify;
+     text-align-last: left;
    }
 
    .welcome_photo {
@@ -83,15 +99,77 @@ body {
 //WELCOME CONTENT//
 
 
+.whyconvert_title {
+  text-align: center;
+}
+
+
 //WHY CONVERT CONTENT//
   .whyconvert_content {
-  background-color: #dd9d72;
-  color: white;
+   background-color: #dd9d72;
+   padding-top: 120px;
+   padding-bottom: 120px;
+   text-align: center;
+   width: 100%;
 
+   //convert-my-space button//
+   button {
+     padding: 10px 30px 10px 30px;
+     margin-top: 60px;
+     background-color: #fff9f0;
+     border: none;
+     border-radius: 3px;
+     box-shadow: 2px 2px #cd8b5e;
 
- .col-3 {
-   padding-top: 20px;
+   button:focus {
+     outline: 3px gray;
+     outline-offset: 10px;
+     }
+
+     a {
+       font-family: Kumbh Sans, arial, sans-serif;
+       color: #dd9d72;
+     }
+
+    }
+    //convert-my-space button//
+
  }
 
-}
+
+  .whyconvert_title {
+    color: white;
+    padding-bottom: 50px;
+  }
+
+ .icon {
+   margin: 0 auto;
+   display: block;
+   padding-bottom: 40px;
+ }
+
+  .whyconvert_text {
+   color: white;
+ }
+
+  .whyconvert_header {
+    font-size: 16pt;
+  }
 //WHY CONVERT CONTENT//
+
+
+//FOOTER//
+footer {
+  background-color: #595755;
+  color: #fff9f0;
+  font-family: Kumbh Sans, arial, sans-serif;
+  font-size: 10pt;
+  padding: 30px;
+
+  a {
+    font-size: 10pt;
+  }
+}
+//FOOTER//
+
+}
