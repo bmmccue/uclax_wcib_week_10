@@ -1,3 +1,6 @@
+body .navbar {
+  background-color: #595755; }
+
 body .navbar-nav {
   flex-direction: row;
   font-family: Kumbh Sans, arial, sans-serif; }
