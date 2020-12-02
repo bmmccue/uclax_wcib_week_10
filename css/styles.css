@@ -1,3 +1,18 @@
+body h1 {
+  font-family: allura, georgia, serif;
+  color: #595755; }
+
+body h3 {
+  font-family: Kumbh Sans, arial, sans-serif;
+  font-size: 15pt;
+  color: #595755; }
+
+body p {
+  font-family: Kumbh Sans, arial, sans-serif;
+  font-weight: lighter;
+  color: #595755;
+  line-height: 2.5; }
+
 body .navbar {
   background-color: #595755; }
 
@@ -28,3 +43,17 @@ body .hero-image {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
+
+body .welcome_content {
+  margin-top: 140px;
+  margin-bottom: 140px; }
+
+body .welcome_text {
+  margin-left: 230px; }
+
+body .welcome_photo {
+  margin-left: 40px; }
+
+body .from_garage {
+  margin-bottom: 30px;
+  font-size: 45pt; }

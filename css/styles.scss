@@ -1,5 +1,24 @@
 body {
 
+  h1 {
+    font-family: allura, georgia, serif;
+    color: #595755;
+  }
+
+  h3 {
+    font-family: Kumbh Sans, arial, sans-serif;
+    font-size: 15pt;
+    color: #595755;
+  }
+
+  p {
+    font-family: Kumbh Sans, arial, sans-serif;
+    font-weight: lighter;
+    color: #595755;
+    line-height: 2.5;
+  }
+
+//NAV//
   .navbar {
     background-color: #595755;
   }
@@ -29,9 +48,9 @@ body {
       a {
         color: #fff9f0;
       }
+     }
   }
-
-  }
+//NAV//
 
   .hero-image {
     background-image: url("../images/beach_cottage/beach_cottage_1.jpg");
@@ -42,5 +61,37 @@ body {
     position: relative;
   }
 
+//WELCOME CONTENT//
+   .welcome_content {
+     margin-top: 140px;
+     margin-bottom: 140px;
+   }
+
+   .welcome_text {
+     margin-left: 230px;
+   }
+
+   .welcome_photo {
+     margin-left: 40px;
+   }
+
+   .from_garage {
+     margin-bottom: 30px;
+     font-size: 45pt;
+   }
+
+//WELCOME CONTENT//
+
+
+//WHY CONVERT CONTENT//
+  .whyconvert_content {
+  background-color: #dd9d72;
+  color: white;
+
+
+ .col-3 {
+   padding-top: 20px;
+ }
 
 }
+//WHY CONVERT CONTENT//
