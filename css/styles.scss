@@ -4,14 +4,22 @@ body {
     background-color: #595755;
   }
 
+  .navbar-social {
+    padding: 10px;
+  }
+
   .navbar-nav {
     flex-direction: row;
     font-family: Kumbh Sans, arial, sans-serif;
   }
 
-  .nav-item {
-    color: #fff9f0;
-    padding: 10px;
+  li {
+    padding: 7px;
+    text-decoration: none;
+
+    a {
+      color: #fff9f0;
+    }
   }
 
 
