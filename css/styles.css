@@ -1,0 +1,14 @@
+body ul {
+  text-align: center; }
+
+body li {
+  display: inline;
+  padding: 15px; }
+
+body .top_nav {
+  float: right;
+  margin-top: 50px; }
+
+body .nav_bar {
+  background-color: #595755;
+  text-align: center; }
