@@ -1,15 +1,25 @@
 body .navbar {
   background-color: #595755; }
 
+body .navbar-toggler {
+  background-color: white; }
+
 body .navbar-social {
   padding: 10px; }
 
 body .navbar-nav {
   flex-direction: row;
   font-family: Kumbh Sans, arial, sans-serif; }
+  body .navbar-nav li {
+    padding: 5px;
+    text-decoration: none; }
+    body .navbar-nav li a {
+      color: #fff9f0; }
 
-body li {
-  padding: 7px;
-  text-decoration: none; }
-  body li a {
-    color: #fff9f0; }
+body .hero-image {
+  background-image: url("../images/beach_cottage/beach_cottage_1.jpg");
+  height: 540px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
