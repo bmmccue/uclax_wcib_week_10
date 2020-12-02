@@ -4,6 +4,10 @@ body {
     background-color: #595755;
   }
 
+  .social-icons {
+    margin-left: 30px;
+  }
+
   .navbar-toggler {
     background-color: white;
   }
@@ -15,10 +19,12 @@ body {
   .navbar-nav {
     flex-direction: row;
     font-family: Kumbh Sans, arial, sans-serif;
+    margin-right: 30px;
 
     li {
       padding: 5px;
       text-decoration: none;
+      font-size: 12pt;
 
       a {
         color: #fff9f0;
