@@ -1,114 +1,170 @@
-body h1 {
-  font-family: allura, georgia, serif; }
+body {
+  /* Slideshow container */
+  /* Hide the images by default */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Caption text */
+  /* Number text (1/3 etc) */
+  /* The dots/bullets/indicators */
+  /* Fading animation */ }
+  body h1 {
+    font-family: allura, georgia, serif; }
+  body h3 {
+    font-family: Kumbh Sans, arial, sans-serif;
+    font-size: 15pt; }
+  body p {
+    font-family: Kumbh Sans, arial, sans-serif;
+    font-weight: lighter;
+    line-height: 2.5; }
+  body .navbar {
+    background-color: #595755; }
+  body .social-icons {
+    margin-left: 100px; }
+  body .navbar-logo {
+    margin: 0 auto; }
+  body .navbar-toggler {
+    background-color: white; }
+  body .navbar-social {
+    padding: 10px; }
+  body .navbar-nav {
+    flex-direction: row;
+    font-family: Kumbh Sans, arial, sans-serif;
+    margin-right: 100px; }
+    body .navbar-nav li {
+      padding: 5px;
+      text-decoration: none;
+      font-size: 10pt; }
+      body .navbar-nav li a {
+        color: #fff9f0; }
+  body .hero-image {
+    background-image: url("../images/beach_cottage/beach_cottage_1.jpg");
+    height: 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+  body .welcome_content {
+    margin-top: 140px;
+    margin-bottom: 140px; }
+  body .welcome_text {
+    margin-left: 230px;
+    color: #595755; }
+  body .welcome_p {
+    text-align: justify;
+    text-align-last: left; }
+  body .welcome_photo {
+    margin-left: 70px; }
+  body .from_garage {
+    margin-bottom: 30px;
+    font-size: 45pt; }
+  body .whyconvert_title {
+    text-align: center; }
+  body .whyconvert_content {
+    background-color: #dd9d72;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    width: 100%; }
+    body .whyconvert_content button {
+      padding: 10px 30px 10px 30px;
+      margin-top: 60px;
+      background-color: #fff9f0;
+      border: none;
+      border-radius: 3px;
+      box-shadow: 2px 2px #cd8b5e; }
+      body .whyconvert_content button button:focus {
+        outline: 3px gray;
+        outline-offset: 10px; }
+      body .whyconvert_content button a {
+        font-family: Kumbh Sans, arial, sans-serif;
+        color: #dd9d72; }
+  body .whyconvert_title {
+    color: white;
+    padding-bottom: 50px; }
+  body .icon {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 40px; }
+  body .whyconvert_text {
+    color: white; }
+  body .whyconvert_header {
+    font-size: 16pt; }
+  body footer {
+    background-color: #595755;
+    color: #fff9f0;
+    font-family: Kumbh Sans, arial, sans-serif;
+    font-size: 10pt;
+    padding: 30px; }
+    body footer a {
+      font-size: 10pt; }
+  body .footer-logo {
+    margin-left: 50px; }
+  body * {
+    box-sizing: border-box; }
+  body .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto; }
+  body .mySlides {
+    display: none; }
+  body .prev, body .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none; }
+  body .next {
+    right: 0;
+    border-radius: 3px 0 0 3px; }
+  body .prev:hover, body .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); }
+  body .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center; }
+  body .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0; }
+  body .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease; }
+  body .active, body .dot:hover {
+    background-color: #717171; }
+  body .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s; }
 
-body h3 {
-  font-family: Kumbh Sans, arial, sans-serif;
-  font-size: 15pt; }
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
 
-body p {
-  font-family: Kumbh Sans, arial, sans-serif;
-  font-weight: lighter;
-  line-height: 2.5; }
-
-body .navbar {
-  background-color: #595755; }
-
-body .social-icons {
-  margin-left: 100px; }
-
-body .navbar-logo {
-  margin: 0 auto; }
-
-body .navbar-toggler {
-  background-color: white; }
-
-body .navbar-social {
-  padding: 10px; }
-
-body .navbar-nav {
-  flex-direction: row;
-  font-family: Kumbh Sans, arial, sans-serif;
-  margin-right: 100px; }
-  body .navbar-nav li {
-    padding: 5px;
-    text-decoration: none;
-    font-size: 10pt; }
-    body .navbar-nav li a {
-      color: #fff9f0; }
-
-body .hero-image {
-  background-image: url("../images/beach_cottage/beach_cottage_1.jpg");
-  height: 540px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
-
-body .welcome_content {
-  margin-top: 140px;
-  margin-bottom: 140px; }
-
-body .welcome_text {
-  margin-left: 230px;
-  color: #595755; }
-
-body .welcome_p {
-  text-align: justify;
-  text-align-last: left; }
-
-body .welcome_photo {
-  margin-left: 70px; }
-
-body .from_garage {
-  margin-bottom: 30px;
-  font-size: 45pt; }
-
-body .whyconvert_title {
-  text-align: center; }
-
-body .whyconvert_content {
-  background-color: #dd9d72;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  text-align: center;
-  width: 100%; }
-  body .whyconvert_content button {
-    padding: 10px 30px 10px 30px;
-    margin-top: 60px;
-    background-color: #fff9f0;
-    border: none;
-    border-radius: 3px;
-    box-shadow: 2px 2px #cd8b5e; }
-    body .whyconvert_content button button:focus {
-      outline: 3px gray;
-      outline-offset: 10px; }
-    body .whyconvert_content button a {
-      font-family: Kumbh Sans, arial, sans-serif;
-      color: #dd9d72; }
-
-body .whyconvert_title {
-  color: white;
-  padding-bottom: 50px; }
-
-body .icon {
-  margin: 0 auto;
-  display: block;
-  padding-bottom: 40px; }
-
-body .whyconvert_text {
-  color: white; }
-
-body .whyconvert_header {
-  font-size: 16pt; }
-
-body footer {
-  background-color: #595755;
-  color: #fff9f0;
-  font-family: Kumbh Sans, arial, sans-serif;
-  font-size: 10pt;
-  padding: 30px; }
-  body footer a {
-    font-size: 10pt; }
-
-body .footer-logo {
-  margin-left: 50px; }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
