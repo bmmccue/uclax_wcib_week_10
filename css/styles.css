@@ -117,7 +117,14 @@ body {
       font-size: 15pt;
       line-height: 2; }
   body .gallery_1 {
-    margin-top: 150px; }
+    margin-top: 120px;
+    margin-bottom: 50px; }
+    body .gallery_1 .work_photo_1 {
+      margin-left: 10px;
+      margin-right: -50px; }
+    body .gallery_1 .work_photo_2 {
+      margin-right: 10px;
+      margin-left: -50px; }
   body * {
     box-sizing: border-box; }
   body .slideshow-container {
