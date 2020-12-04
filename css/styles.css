@@ -100,6 +100,24 @@ body {
       font-size: 10pt; }
   body .footer-logo {
     margin-left: 50px; }
+  body .our_work {
+    text-align: center;
+    margin-top: 100px;
+    color: #595755;
+    font-size: 45pt; }
+  body .project_1 {
+    background-color: #dd9d72;
+    color: white;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 280px;
+    font-family: Kumbh Sans, arial, sans-serif; }
+    body .project_1 p {
+      font-size: 15pt;
+      line-height: 2; }
+  body .gallery_1 {
+    margin-top: 150px; }
   body * {
     box-sizing: border-box; }
   body .slideshow-container {

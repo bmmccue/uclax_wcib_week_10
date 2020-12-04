@@ -176,7 +176,37 @@ footer {
 //FOOTER//
 
 
+//Work Page//
+
+.our_work {
+  text-align: center;
+  margin-top: 100px;
+  color: #595755;
+  font-size: 45pt;
+}
+
+ .project_1 {
+   background-color: #dd9d72;
+   color: white;
+   margin-top: 100px;
+   padding-top: 100px;
+   padding-bottom: 150px;
+   padding-left: 280px;
+   font-family: Kumbh Sans, arial, sans-serif;
+
+   p {
+     font-size: 15pt;
+     line-height: 2;
+   }
+ }
+
+
 //PHOTO GALLERY//
+  .gallery_1{
+    margin-top: 150px;
+  }
+
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
