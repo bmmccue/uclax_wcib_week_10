@@ -18,9 +18,16 @@ body {
     font-weight: lighter;
     line-height: 2.5; }
   body .navbar {
-    background-color: #595755; }
+    background-color: #595755;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100; }
+  body .navbar-collapse {
+    flex-grow: 0; }
   body .social-icons {
-    margin-left: 100px; }
+    margin-left: 50px; }
   body .navbar-logo {
     margin: 0 auto; }
   body .navbar-toggler {
@@ -30,7 +37,7 @@ body {
   body .navbar-nav {
     flex-direction: row;
     font-family: Kumbh Sans, arial, sans-serif;
-    margin-right: 100px; }
+    margin-right: 50px; }
     body .navbar-nav li {
       padding: 5px;
       text-decoration: none;
