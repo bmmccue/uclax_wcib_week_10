@@ -70,7 +70,7 @@ body {
 
 //HERO IMAGES//
   .hero-image {
-    background-image: url("../images/beach_cottage/beach_cottage_1.jpg");
+    background-image: url("../images/mid-century_studio.jpg");
     height: 540px;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body {
   }
 
   .hero-image-services {
-    background-image: url("../images/mid-century_studio.jpg");
+    background-image: url("../images/beach_cottage/beach_cottage_1.jpg");
     height: 540px;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,7 +197,6 @@ footer {
 
 
 //Work Page//
-
 .our_work {
   text-align: center;
   margin-top: 100px;
@@ -336,5 +335,23 @@ footer {
   to {opacity: 100}
 }
 //PHOTOS & PHOTO GALLERY//
+//Work Page//
+
+
+//Services Page//
+.how_it_works {
+  color: #595755;
+  text-align: center;
+}
+
+.services_text {
+  background-color: #dd9d72;
+  color: white;
+  font-family: Kumbh Sans, arial, sans-serif;
+  margin: 30px;
+  padding: 45px;
+  text-align: center;
+}
+//Services Page//
 
 }

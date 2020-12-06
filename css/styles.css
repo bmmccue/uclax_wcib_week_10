@@ -41,14 +41,14 @@ body {
       body .navbar-nav li a {
         color: #fff9f0; }
   body .hero-image {
-    background-image: url("../images/beach_cottage/beach_cottage_1.jpg");
+    background-image: url("../images/mid-century_studio.jpg");
     height: 540px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; }
   body .hero-image-services {
-    background-image: url("../images/mid-century_studio.jpg");
+    background-image: url("../images/beach_cottage/beach_cottage_1.jpg");
     height: 540px;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,3 +196,13 @@ body {
     opacity: 80; }
   to {
     opacity: 100; } }
+  body .how_it_works {
+    color: #595755;
+    text-align: center; }
+  body .services_text {
+    background-color: #dd9d72;
+    color: white;
+    font-family: Kumbh Sans, arial, sans-serif;
+    margin: 30px;
+    padding: 45px;
+    text-align: center; }
