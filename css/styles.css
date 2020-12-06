@@ -198,7 +198,9 @@ body {
     opacity: 100; } }
   body .how_it_works {
     color: #595755;
-    text-align: center; }
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px; }
   body .services_text {
     background-color: #dd9d72;
     color: white;
@@ -206,3 +208,5 @@ body {
     margin: 30px;
     padding: 45px;
     text-align: center; }
+  body .services_title {
+    padding-bottom: 15px; }
