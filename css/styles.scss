@@ -363,7 +363,7 @@ footer {
 
 hr.solid {
   margin-top: 150px;
-  border-top: 3px solid #e0dcd9;
+  border-top: 2px solid #e0dcd9;
 }
 
 .email_info {
@@ -372,6 +372,14 @@ hr.solid {
 }
 
 .start_project {
+  color: #595755;
+  font-size: 45pt;
+  margin-bottom: 30px;
+}
+
+.email_form {
+  font-family: Kumbh Sans, arial, sans-serif;
+  font-weight: lighter;
   color: #595755;
 }
 //Services Page//
