@@ -213,6 +213,7 @@ body {
   body .services_title {
     padding-bottom: 15px; }
   body hr.solid {
+    margin-top: 150px;
     border-top: 3px solid #e0dcd9; }
   body .email_info {
     margin-top: 100px;
