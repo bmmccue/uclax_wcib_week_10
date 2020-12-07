@@ -231,6 +231,13 @@ body {
       border-radius: 2px;
       border: none;
       background-color: #e0dcd9;
-      height: 30px; }
+      height: 30px;
+      margin-top: 10px; }
+    body .email_form input[type=button], body .email_form input[type=reset], body .email_form input[type=submit] {
+      padding: 15px 40px 30px 40px;
+      margin-right: 20px;
+      margin-top: 5px;
+      color: white;
+      background-color: #dd9d72; }
   body .input_title {
     margin-bottom: 20px; }
