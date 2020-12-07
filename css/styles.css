@@ -208,8 +208,14 @@ body {
     font-family: Kumbh Sans, arial, sans-serif;
     margin: 30px;
     padding: 45px;
-    text-align: center; }
+    text-align: center;
+    border-radius: 20px; }
   body .services_title {
     padding-bottom: 15px; }
-  body hr.dashed {
-    border-top: 3px dashed #bbb; }
+  body hr.solid {
+    border-top: 3px solid #e0dcd9; }
+  body .email_info {
+    margin-top: 100px;
+    margin-bottom: 80px; }
+  body .start_project {
+    color: #595755; }
