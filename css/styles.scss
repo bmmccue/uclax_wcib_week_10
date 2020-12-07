@@ -342,8 +342,9 @@ footer {
 .how_it_works {
   color: #595755;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-bottom: 100px;
+  font-size: 45pt;
 }
 
 .services_text {
@@ -353,11 +354,15 @@ footer {
   margin: 30px;
   padding: 45px;
   text-align: center;
+  border-radius: 20px;
 }
 
 .services_title {
   padding-bottom: 15px;
 }
+
+hr.solid {
+  border-top: 3px solid #e0dcd9;
 //Services Page//
 
 }

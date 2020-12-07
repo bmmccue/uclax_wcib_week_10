@@ -199,8 +199,9 @@ body {
   body .how_it_works {
     color: #595755;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px; }
+    margin-top: 120px;
+    margin-bottom: 100px;
+    font-size: 45pt; }
   body .services_text {
     background-color: #dd9d72;
     color: white;
@@ -210,3 +211,5 @@ body {
     text-align: center; }
   body .services_title {
     padding-bottom: 15px; }
+  body hr.dashed {
+    border-top: 3px dashed #bbb; }
