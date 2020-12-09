@@ -196,6 +196,15 @@ body {
     opacity: 80; }
   to {
     opacity: 100; } }
+  body .carousel {
+    text-align: center; }
+  body .carousel-item {
+    background-color: white; }
+  body .carousel-indicators li {
+    background-color: #dd9d72; }
+  body .carousel-control-prev, body .carousel-control-next {
+    text-align: center;
+    width: 700px; }
   body .how_it_works {
     color: #595755;
     text-align: center;

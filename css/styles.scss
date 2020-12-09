@@ -237,7 +237,6 @@ footer {
 
   }
 
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -336,6 +335,29 @@ footer {
 }
 //PHOTOS & PHOTO GALLERY//
 //Work Page//
+
+
+
+//gallery test//
+.carousel {
+  text-align: center;
+}
+.carousel-item {
+  background-color: white;
+
+}
+
+.carousel-indicators {
+  li {
+    background-color: #dd9d72;
+  }
+}
+
+.carousel-control-prev, .carousel-control-next {
+  text-align: center;
+  width: 700px;
+}
+//gallery test//
 
 
 //Services Page//
